@@ -1,0 +1,34 @@
+---
+title: "portfolio"
+author: "Chloé van der Burg"
+format: html
+editor: visual
+---
+
+## Education
+
+2020 **Doctor of Philosophy**
+
+*Understanding the role of innate immune and novel genes in the evolution and regeneration of sea anemones*
+
+Queensland University of Technology, Brisbane, Australia
+
+2015 **Bachelor of Biomedical Science (Honours 1A)**
+
+Queensland University of Technology, Brisbane, Australia
+
+2014 **Bachelor of Applied Science**
+
+Queensland University of Technology, Brisbane, Australia
+
+## Work Experience
+
+-   post doc x 2
+
+-   chair erg
+
+-   carpentries
+
+## Publications
+
+van der Burg, C. A. (2025) "Example publication". *Journal of journals.* doi: x.x.x.x.x
