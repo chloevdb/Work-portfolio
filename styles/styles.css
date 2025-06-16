@@ -1,0 +1,137 @@
+/* Base Reset and Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5fdfc; /* very light mint background */
+  color: #1f3b4d; /* soft navy text */
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Color Palette */
+:root {
+  --mint: #c7f5e9;
+  --mint-dark: #94e3d4;
+  --soft-blue: #d6eaf8;
+  --soft-blue-dark: #a6d4f2;
+  --text-dark: #1f3b4d;
+  --text-light: #4f6d7a;
+  --white: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.05);
+}
+
+/* Containers */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Cards / Panels */
+.card {
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--shadow);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button,
+.button {
+  background-color: var(--mint-dark);
+  color: var(--text-dark);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+button:hover,
+.button:hover {
+  background-color: var(--mint);
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+/* Links */
+a {
+  color: var(--soft-blue-dark);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--text-light);
+}
+
+/* Forms */
+input, textarea, select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #dceef4;
+  border-radius: 8px;
+  background-color: #f9fdfd;
+  font-size: 1rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--mint-dark);
+  background-color: #ffffff;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-1 { margin-top: 1rem; }
+.mt-2 { margin-top: 2rem; }
+.mb-1 { margin-bottom: 1rem; }
+.mb-2 { margin-bottom: 2rem; }
+.p-1 { padding: 1rem; }
+.p-2 { padding: 2rem; }
+
+.rounded {
+  border-radius: 12px;
+}
+
+/* Footer */
+footer {
+  padding: 1rem;
+  text-align: center;
+  color: var(--text-light);
+  background-color: var(--soft-blue);
+}
+
