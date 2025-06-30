@@ -1,0 +1,17 @@
+---
+title: "Recipes"
+author: "Chloé van der Burg"
+date: last-modified
+format: html
+editor: visual
+---
+
+My recipes :)
+
+## Sweet
+
+### [Waffles](waffles.html)
+
+## Savoury
+
+### [Mexican beans](mexican-beans.html)

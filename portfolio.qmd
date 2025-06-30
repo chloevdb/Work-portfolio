@@ -21,14 +21,6 @@ Queensland University of Technology, Brisbane, Australia
 
 Queensland University of Technology, Brisbane, Australia
 
-## Work Experience
-
--   post doc x 2
-
--   chair erg
-
--   carpentries
-
 ## Publications
 
 van der Burg, C. A. (2025) "Example publication". *Journal of journals.* doi: x.x.x.x.x
